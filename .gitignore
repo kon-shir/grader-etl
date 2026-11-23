@@ -1,0 +1,17 @@
+# секреты — никогда не коммитить
+.env
+credentials.json
+*.json.key
+
+# окружение и кэш
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# логи и IDE
+logs/
+*.log
+.idea/
+.vscode/
+.ipynb_checkpoints/
